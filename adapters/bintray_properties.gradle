@@ -1,0 +1,3 @@
+if(!project.hasProperty('BINTRAY_PACKAGE')) project.ext.BINTRAY_PACKAGE = 'adapters'
+if(!project.hasProperty('ARTIFACT_VERSION')) project.ext.ARTIFACT_VERSION = '0.0.1'
+if(!project.hasProperty('DESCRIPTION')) project.ext.DESCRIPTION = 'Adapters for RecyclerView'
